@@ -9,5 +9,6 @@
   ],
   "rebaseWhen": "behind-base-branch",
   "commitMessagePrefix": "chore(deps):",
-  "timezone": "Asia/Bangkok"
+  "timezone": "Asia/Bangkok",
+  "configMigration": true
 }
