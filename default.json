@@ -8,7 +8,10 @@
     "no-stale"
   ],
   "rebaseWhen": "behind-base-branch",
+  "commitMessage": "{{{commitMessagePrefix}}} {{{commitMessageTopic}}} {{{commitMessageExtra}}}",
   "commitMessagePrefix": "chore(deps):",
+  "commitMessageTopic": "{{depName}}",
+  "commitMessageExtra": "{{currentVersion}} → {{newVersion}}",
   "timezone": "Asia/Bangkok",
   "configMigration": true
 }
